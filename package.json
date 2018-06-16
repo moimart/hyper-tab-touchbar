@@ -6,10 +6,9 @@
   "author": "Moises Martinez <moises@kikkei.com>",
   "license": "BSD-2-Clause",
   "dependencies": {
-    "promisfy": "^1.1.4"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/moimart/hyper-tab-touchbar.git"
-  },
+  }
 }
