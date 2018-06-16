@@ -178,7 +178,7 @@ exports.middleware = (store) => (next) => (action) => {
              }
            }
          }
-			   break;
+          break;
     }
 
     next(action);
