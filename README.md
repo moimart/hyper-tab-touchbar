@@ -11,7 +11,7 @@ From hyper terminal: `hyper i hyper-tab-touchbar`
 
 - Show your open tabs in your MacBook Pro's TouchBar
 - Click on the tabs to jump to the specific tab
-- If you have [hyper-folder-icon](https://github.com/moimart/hyper-folder-icon) installed, you can your Volumes and custom folder's icons shown in the TouchBar
+- If you have [hyper-folder-icon](https://github.com/moimart/hyper-folder-icon) installed, you can have your Volumes and custom folder's icons shown in the TouchBar
 
 ![alt text](https://i.imgur.com/2pnvB1w.jpg)
 
