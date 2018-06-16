@@ -1,11 +1,15 @@
 {
   "name": "hyper-tab-touchbar",
   "version": "0.0.1",
-  "description": "Show hyper tabs in the macOS TouchBar",
-  "main": "index.js",
+  "description": "Show hyper tabs in the MacBook Pro's TouchBar",
+  "main": "./index.js",
   "author": "Moises Martinez <moises@kikkei.com>",
   "license": "BSD-2-Clause",
   "dependencies": {
     "promisfy": "^1.1.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moimart/hyper-tab-touchbar.git"
+  },
 }
