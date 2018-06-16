@@ -13,6 +13,8 @@ From hyper terminal: `hyper i hyper-tab-touchbar`
 - Click on the tabs to jump to the specific tab
 - If you have [hyper-folder-icon](https://github.com/moimart/hyper-folder-icon) installed, you can your Volumes and custom folder's icons shown in the TouchBar
 
+![alt text](https://i.imgur.com/2pnvB1w.jpg)
+
 ## Optional Configuration keys
 
 - All inside hyperTouchBar object
@@ -28,6 +30,7 @@ From hyper terminal: `hyper i hyper-tab-touchbar`
     label: 'clear',
     onClick: 'path_to_file.js'
   }
+}
 ```
 
 The script simply exports a function:
