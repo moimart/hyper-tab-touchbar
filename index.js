@@ -163,22 +163,22 @@ exports.middleware = (store) => (next) => (action) => {
           break;
 
         case 'CONFIG_LOAD':
-    		case 'CONFIG_RELOAD':
-  			   if (action.config.hyperTouchBar) {
-             config = Object.assign({},config,action.config.hyperTouchBar);
-             if (action.config.hyperTouchBar.specialButton
-                 && action.config.hyperTouchBar.specialButton.onClick) {
-               try {
-                  let fn = require(config.specialButton.onClick);
-                  if (fn) {
-                    config.specialButton.onClick = fn;
-                  }
-               } catch (error) {
-                  //do nothing...
-               }
+        case 'CONFIG_RELOAD':
+          if (action.config.hyperTouchBar) {
+           config = Object.assign({},config,action.config.hyperTouchBar);
+           if (action.config.hyperTouchBar.specialButton
+               && action.config.hyperTouchBar.specialButton.onClick) {
+             try {
+              let fn = require(config.specialButton.onClick);
+              if (fn) {
+                config.specialButton.onClick = fn;
+              }
+             } catch (error) {
+              //do nothing...
              }
            }
-  			   break;
+         }
+			   break;
     }
 
     next(action);
