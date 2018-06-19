@@ -36,8 +36,10 @@ From hyper terminal: `hyper i hyper-tab-touchbar`
 The script simply exports a function:
 
 ```
-module.exports = () => {
-  console.log('Hello World');
+module.exports = {
+  hyperTouchBarOnClick: () => {
+    console.log('Hello World');
+  }
 };
 ```
 

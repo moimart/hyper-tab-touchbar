@@ -1,6 +1,6 @@
 {
   "name": "hyper-tab-touchbar",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Show hyper tabs in the MacBook Pro's TouchBar",
   "main": "./index.js",
   "author": "Moises Martinez <moises@kikkei.com>",

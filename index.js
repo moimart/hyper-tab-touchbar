@@ -169,7 +169,7 @@ exports.middleware = (store) => (next) => (action) => {
            if (action.config.hyperTouchBar.specialButton
                && action.config.hyperTouchBar.specialButton.onClick) {
              try {
-              let fn = require(config.specialButton.onClick);
+              let fn = require(config.specialButton.onClick).hyperTouchBarOnClick;
               if (fn) {
                 config.specialButton.onClick = fn;
               }
